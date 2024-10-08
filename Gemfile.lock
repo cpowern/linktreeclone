@@ -149,7 +149,7 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
-    psych (5.1.2)
+    psych (4.0.6)
       stringio
     public_suffix (6.0.1)
     puma (6.4.3)
@@ -285,6 +285,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  psych (~> 4.0)
   puma (>= 5.0)
   rails (~> 7.2.1)
   rubocop-rails-omakase
